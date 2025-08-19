@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter','sans-serif';
+    background-color: rgb(77, 129, 97);
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: rgb(11, 64, 11); /* Sets the color of active links to green */
+  }
+
+  a:hover {
+    color: red; /* Sets the color of links on hover to red */
+  }
+
+#home-button {
+    text-align: right;
+    margin-right: 5%;
+    font-size: 1.7rem;
+    padding: 1rem;
+    
+}
+
+.title-head {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.5rem;
+}
+.nav-items {
+   
+}
+
+.gravitas-one-regular {
+    font-family: "Gravitas One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+  }
+
+  .bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.9rem;
+  }
+
+  #ruger-pic-cont {
+    display: flex;
+    align-items: center;
+    /* width: auto; Image takes 100% of its parent's width */
+    /* height: auto; Height adjusts automatically to maintain aspect ratio */
+    /* display: block; Makes the image a block-level element */
+    margin: 5%; /* Centers the block-level element horizontally */
+    max-width: 100%; /* Ensures responsiveness by limiting width to parent container */
+    height: auto; /* Maintains aspect ratio when scaling */
+  }
+
+  #ruger-home-pic {
+    width: 100%;
+    height: auto;
+    border-width: 1rem;
+    border-radius: 3%;
+    border-color: black;
+  }
+
+  /* About Page */
+  .about-pic-cont {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .about-pic{
+    width: auto;
+    height: 25rem;
+    border-radius: 3%;
+    margin-inline: 2rem;
+}
+
+  #about-cont {
+    text-align: center;
+    justify-content: center;
+    margin-top: 5%;
+  }
+
+  #about-header {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+ li {
+    text-align: center;
+    display: list-item;
+    font-size: 1.8rem;
+    font-weight: 800;
+  }
+
+  footer {
+    margin-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: large;
+    font-weight: 600;
+  }
+
+  /* Faces page */
+
+  .faces-header {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+  }
+
+  .faces-img-cont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .faces-pics {
+    height: 30rem;
+    width: auto;
+    justify-content: space-around;
+    margin: 1rem;
+    border-radius: 3%;
+  }
+
+  /* Parents page */
+
+  .parent-header {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+  }
+
+  .parent-pics-cont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .parent-pics {
+    height: 30rem;
+    width: auto;
+    justify-content: space-around;
+    margin: 1rem;
+    border-radius: 3%;
+  }
+
+  .sissie-header {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+  }
+
+  .sissie-pic-cont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .sissie-pic {
+    height: 30rem;
+    width: auto;
+    justify-content: space-around;
+    margin: 1rem;
+    border-radius: 3%;
+  }
+
+  .gf-header {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+  }
+
+  .gf-pics-cont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .gf-pic {
+    height: 30rem;
+    width: auto;
+    justify-content: space-around;
+    margin: 1rem;
+    border-radius: 3%;
+  }
