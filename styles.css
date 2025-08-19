@@ -101,6 +101,10 @@ a:visited {
     display: list-item;
     font-size: 1.8rem;
     font-weight: 800;
+    list-style-type: circle;
+  }
+  .about-list {
+    list-style-type: circle;
   }
 
   footer {
